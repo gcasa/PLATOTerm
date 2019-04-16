@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14B1A1532265F90A00D8D9E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B1A1522265F90A00D8D9E3 /* AppDelegate.m */; };
+		14B1A1562265F90A00D8D9E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B1A1552265F90A00D8D9E3 /* ViewController.m */; };
+		14B1A1592265F90A00D8D9E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14B1A1572265F90A00D8D9E3 /* Main.storyboard */; };
+		14B1A15C2265F90A00D8D9E3 /* PLATOTerm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 14B1A15A2265F90A00D8D9E3 /* PLATOTerm.xcdatamodeld */; };
+		14B1A15E2265F90B00D8D9E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14B1A15D2265F90B00D8D9E3 /* Assets.xcassets */; };
+		14B1A1612265F90B00D8D9E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14B1A15F2265F90B00D8D9E3 /* LaunchScreen.storyboard */; };
+		14B1A1642265F90B00D8D9E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B1A1632265F90B00D8D9E3 /* main.m */; };
+		14B1A16E2265F90B00D8D9E3 /* PLATOTermTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B1A16D2265F90B00D8D9E3 /* PLATOTermTests.m */; };
+		14B1A1792265F90B00D8D9E3 /* PLATOTermUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B1A1782265F90B00D8D9E3 /* PLATOTermUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14B1A16A2265F90B00D8D9E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14B1A1462265F90A00D8D9E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14B1A14D2265F90A00D8D9E3;
+			remoteInfo = PLATOTerm;
+		};
+		14B1A1752265F90B00D8D9E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14B1A1462265F90A00D8D9E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14B1A14D2265F90A00D8D9E3;
+			remoteInfo = PLATOTerm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14B1A14E2265F90A00D8D9E3 /* PLATOTerm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PLATOTerm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14B1A1512265F90A00D8D9E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		14B1A1522265F90A00D8D9E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		14B1A1542265F90A00D8D9E3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		14B1A1552265F90A00D8D9E3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		14B1A1582265F90A00D8D9E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14B1A15B2265F90A00D8D9E3 /* PLATOTerm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PLATOTerm.xcdatamodel; sourceTree = "<group>"; };
+		14B1A15D2265F90B00D8D9E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14B1A1602265F90B00D8D9E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14B1A1622265F90B00D8D9E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14B1A1632265F90B00D8D9E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14B1A1692265F90B00D8D9E3 /* PLATOTermTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PLATOTermTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14B1A16D2265F90B00D8D9E3 /* PLATOTermTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLATOTermTests.m; sourceTree = "<group>"; };
+		14B1A16F2265F90B00D8D9E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14B1A1742265F90B00D8D9E3 /* PLATOTermUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PLATOTermUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14B1A1782265F90B00D8D9E3 /* PLATOTermUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLATOTermUITests.m; sourceTree = "<group>"; };
+		14B1A17A2265F90B00D8D9E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14B1A14B2265F90A00D8D9E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14B1A1662265F90B00D8D9E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14B1A1712265F90B00D8D9E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14B1A1452265F90A00D8D9E3 = {
+			isa = PBXGroup;
+			children = (
+				14B1A1502265F90A00D8D9E3 /* PLATOTerm */,
+				14B1A16C2265F90B00D8D9E3 /* PLATOTermTests */,
+				14B1A1772265F90B00D8D9E3 /* PLATOTermUITests */,
+				14B1A14F2265F90A00D8D9E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14B1A14F2265F90A00D8D9E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14B1A14E2265F90A00D8D9E3 /* PLATOTerm.app */,
+				14B1A1692265F90B00D8D9E3 /* PLATOTermTests.xctest */,
+				14B1A1742265F90B00D8D9E3 /* PLATOTermUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14B1A1502265F90A00D8D9E3 /* PLATOTerm */ = {
+			isa = PBXGroup;
+			children = (
+				14B1A1512265F90A00D8D9E3 /* AppDelegate.h */,
+				14B1A1522265F90A00D8D9E3 /* AppDelegate.m */,
+				14B1A1542265F90A00D8D9E3 /* ViewController.h */,
+				14B1A1552265F90A00D8D9E3 /* ViewController.m */,
+				14B1A1572265F90A00D8D9E3 /* Main.storyboard */,
+				14B1A15D2265F90B00D8D9E3 /* Assets.xcassets */,
+				14B1A15F2265F90B00D8D9E3 /* LaunchScreen.storyboard */,
+				14B1A1622265F90B00D8D9E3 /* Info.plist */,
+				14B1A1632265F90B00D8D9E3 /* main.m */,
+				14B1A15A2265F90A00D8D9E3 /* PLATOTerm.xcdatamodeld */,
+			);
+			path = PLATOTerm;
+			sourceTree = "<group>";
+		};
+		14B1A16C2265F90B00D8D9E3 /* PLATOTermTests */ = {
+			isa = PBXGroup;
+			children = (
+				14B1A16D2265F90B00D8D9E3 /* PLATOTermTests.m */,
+				14B1A16F2265F90B00D8D9E3 /* Info.plist */,
+			);
+			path = PLATOTermTests;
+			sourceTree = "<group>";
+		};
+		14B1A1772265F90B00D8D9E3 /* PLATOTermUITests */ = {
+			isa = PBXGroup;
+			children = (
+				14B1A1782265F90B00D8D9E3 /* PLATOTermUITests.m */,
+				14B1A17A2265F90B00D8D9E3 /* Info.plist */,
+			);
+			path = PLATOTermUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14B1A14D2265F90A00D8D9E3 /* PLATOTerm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14B1A17D2265F90C00D8D9E3 /* Build configuration list for PBXNativeTarget "PLATOTerm" */;
+			buildPhases = (
+				14B1A14A2265F90A00D8D9E3 /* Sources */,
+				14B1A14B2265F90A00D8D9E3 /* Frameworks */,
+				14B1A14C2265F90A00D8D9E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PLATOTerm;
+			productName = PLATOTerm;
+			productReference = 14B1A14E2265F90A00D8D9E3 /* PLATOTerm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14B1A1682265F90B00D8D9E3 /* PLATOTermTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14B1A1802265F90C00D8D9E3 /* Build configuration list for PBXNativeTarget "PLATOTermTests" */;
+			buildPhases = (
+				14B1A1652265F90B00D8D9E3 /* Sources */,
+				14B1A1662265F90B00D8D9E3 /* Frameworks */,
+				14B1A1672265F90B00D8D9E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14B1A16B2265F90B00D8D9E3 /* PBXTargetDependency */,
+			);
+			name = PLATOTermTests;
+			productName = PLATOTermTests;
+			productReference = 14B1A1692265F90B00D8D9E3 /* PLATOTermTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		14B1A1732265F90B00D8D9E3 /* PLATOTermUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14B1A1832265F90C00D8D9E3 /* Build configuration list for PBXNativeTarget "PLATOTermUITests" */;
+			buildPhases = (
+				14B1A1702265F90B00D8D9E3 /* Sources */,
+				14B1A1712265F90B00D8D9E3 /* Frameworks */,
+				14B1A1722265F90B00D8D9E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14B1A1762265F90B00D8D9E3 /* PBXTargetDependency */,
+			);
+			name = PLATOTermUITests;
+			productName = PLATOTermUITests;
+			productReference = 14B1A1742265F90B00D8D9E3 /* PLATOTermUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14B1A1462265F90A00D8D9E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Gregory John Casamento";
+				TargetAttributes = {
+					14B1A14D2265F90A00D8D9E3 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					14B1A1682265F90B00D8D9E3 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 14B1A14D2265F90A00D8D9E3;
+					};
+					14B1A1732265F90B00D8D9E3 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 14B1A14D2265F90A00D8D9E3;
+					};
+				};
+			};
+			buildConfigurationList = 14B1A1492265F90A00D8D9E3 /* Build configuration list for PBXProject "PLATOTerm" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14B1A1452265F90A00D8D9E3;
+			productRefGroup = 14B1A14F2265F90A00D8D9E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14B1A14D2265F90A00D8D9E3 /* PLATOTerm */,
+				14B1A1682265F90B00D8D9E3 /* PLATOTermTests */,
+				14B1A1732265F90B00D8D9E3 /* PLATOTermUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14B1A14C2265F90A00D8D9E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14B1A1612265F90B00D8D9E3 /* LaunchScreen.storyboard in Resources */,
+				14B1A15E2265F90B00D8D9E3 /* Assets.xcassets in Resources */,
+				14B1A1592265F90A00D8D9E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14B1A1672265F90B00D8D9E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14B1A1722265F90B00D8D9E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14B1A14A2265F90A00D8D9E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14B1A1562265F90A00D8D9E3 /* ViewController.m in Sources */,
+				14B1A15C2265F90A00D8D9E3 /* PLATOTerm.xcdatamodeld in Sources */,
+				14B1A1642265F90B00D8D9E3 /* main.m in Sources */,
+				14B1A1532265F90A00D8D9E3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14B1A1652265F90B00D8D9E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14B1A16E2265F90B00D8D9E3 /* PLATOTermTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14B1A1702265F90B00D8D9E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14B1A1792265F90B00D8D9E3 /* PLATOTermUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14B1A16B2265F90B00D8D9E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14B1A14D2265F90A00D8D9E3 /* PLATOTerm */;
+			targetProxy = 14B1A16A2265F90B00D8D9E3 /* PBXContainerItemProxy */;
+		};
+		14B1A1762265F90B00D8D9E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14B1A14D2265F90A00D8D9E3 /* PLATOTerm */;
+			targetProxy = 14B1A1752265F90B00D8D9E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		14B1A1572265F90A00D8D9E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14B1A1582265F90A00D8D9E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14B1A15F2265F90B00D8D9E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14B1A1602265F90B00D8D9E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14B1A17B2265F90C00D8D9E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		14B1A17C2265F90C00D8D9E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14B1A17E2265F90C00D8D9E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PLATOTerm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.openlogic.PLATOTerm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14B1A17F2265F90C00D8D9E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PLATOTerm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.openlogic.PLATOTerm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		14B1A1812265F90C00D8D9E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PLATOTermTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.openlogic.PLATOTermTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PLATOTerm.app/PLATOTerm";
+			};
+			name = Debug;
+		};
+		14B1A1822265F90C00D8D9E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PLATOTermTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.openlogic.PLATOTermTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PLATOTerm.app/PLATOTerm";
+			};
+			name = Release;
+		};
+		14B1A1842265F90C00D8D9E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PLATOTermUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.openlogic.PLATOTermUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PLATOTerm;
+			};
+			name = Debug;
+		};
+		14B1A1852265F90C00D8D9E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PLATOTermUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.openlogic.PLATOTermUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PLATOTerm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14B1A1492265F90A00D8D9E3 /* Build configuration list for PBXProject "PLATOTerm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14B1A17B2265F90C00D8D9E3 /* Debug */,
+				14B1A17C2265F90C00D8D9E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14B1A17D2265F90C00D8D9E3 /* Build configuration list for PBXNativeTarget "PLATOTerm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14B1A17E2265F90C00D8D9E3 /* Debug */,
+				14B1A17F2265F90C00D8D9E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14B1A1802265F90C00D8D9E3 /* Build configuration list for PBXNativeTarget "PLATOTermTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14B1A1812265F90C00D8D9E3 /* Debug */,
+				14B1A1822265F90C00D8D9E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14B1A1832265F90C00D8D9E3 /* Build configuration list for PBXNativeTarget "PLATOTermUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14B1A1842265F90C00D8D9E3 /* Debug */,
+				14B1A1852265F90C00D8D9E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		14B1A15A2265F90A00D8D9E3 /* PLATOTerm.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				14B1A15B2265F90A00D8D9E3 /* PLATOTerm.xcdatamodel */,
+			);
+			currentVersion = 14B1A15B2265F90A00D8D9E3 /* PLATOTerm.xcdatamodel */;
+			path = PLATOTerm.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 14B1A1462265F90A00D8D9E3 /* Project object */;
+}
