@@ -16,6 +16,8 @@
 		14B1A1642265F90B00D8D9E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B1A1632265F90B00D8D9E3 /* main.m */; };
 		14B1A16E2265F90B00D8D9E3 /* PLATOTermTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B1A16D2265F90B00D8D9E3 /* PLATOTermTests.m */; };
 		14B1A1792265F90B00D8D9E3 /* PLATOTermUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B1A1782265F90B00D8D9E3 /* PLATOTermUITests.m */; };
+		14B1A1872267433800D8D9E3 /* platocore in Resources */ = {isa = PBXBuildFile; fileRef = 14B1A1862267433800D8D9E3 /* platocore */; };
+		14B1A18A226743A400D8D9E3 /* PLATOView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B1A189226743A400D8D9E3 /* PLATOView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		14B1A1742265F90B00D8D9E3 /* PLATOTermUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PLATOTermUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14B1A1782265F90B00D8D9E3 /* PLATOTermUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLATOTermUITests.m; sourceTree = "<group>"; };
 		14B1A17A2265F90B00D8D9E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14B1A1862267433800D8D9E3 /* platocore */ = {isa = PBXFileReference; lastKnownFileType = folder; path = platocore; sourceTree = "<group>"; };
+		14B1A188226743A400D8D9E3 /* PLATOView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLATOView.h; sourceTree = "<group>"; };
+		14B1A189226743A400D8D9E3 /* PLATOView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLATOView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +108,7 @@
 		14B1A1502265F90A00D8D9E3 /* PLATOTerm */ = {
 			isa = PBXGroup;
 			children = (
+				14B1A1862267433800D8D9E3 /* platocore */,
 				14B1A1512265F90A00D8D9E3 /* AppDelegate.h */,
 				14B1A1522265F90A00D8D9E3 /* AppDelegate.m */,
 				14B1A1542265F90A00D8D9E3 /* ViewController.h */,
@@ -113,6 +119,8 @@
 				14B1A1622265F90B00D8D9E3 /* Info.plist */,
 				14B1A1632265F90B00D8D9E3 /* main.m */,
 				14B1A15A2265F90A00D8D9E3 /* PLATOTerm.xcdatamodeld */,
+				14B1A188226743A400D8D9E3 /* PLATOView.h */,
+				14B1A189226743A400D8D9E3 /* PLATOView.m */,
 			);
 			path = PLATOTerm;
 			sourceTree = "<group>";
@@ -240,6 +248,7 @@
 			files = (
 				14B1A1612265F90B00D8D9E3 /* LaunchScreen.storyboard in Resources */,
 				14B1A15E2265F90B00D8D9E3 /* Assets.xcassets in Resources */,
+				14B1A1872267433800D8D9E3 /* platocore in Resources */,
 				14B1A1592265F90A00D8D9E3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +278,7 @@
 				14B1A15C2265F90A00D8D9E3 /* PLATOTerm.xcdatamodeld in Sources */,
 				14B1A1642265F90B00D8D9E3 /* main.m in Sources */,
 				14B1A1532265F90A00D8D9E3 /* AppDelegate.m in Sources */,
+				14B1A18A226743A400D8D9E3 /* PLATOView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
